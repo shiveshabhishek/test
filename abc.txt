@@ -9,10 +9,4 @@ index dfe48e3..6699102 100644
 --- a/index.html
 +++ b/index.html
 @@ -3,6 +3,6 @@
-     <title>Hello World</title>
-   </head>
-   <body>
--    Hi there
-+    Hi there, This is Shivesh Abhishek , presently a beginner in GitHub. Trying to explore more and more about it.
-   </body>
- </html>
+     
