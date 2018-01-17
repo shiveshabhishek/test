@@ -1,16 +1,18 @@
-commit c938195e06e6d4806d8c56a1bd782a3d250ee696
-Author: Harshvardhan Karn <harshvkarn54@gmail.com>
-Date:   Wed Jan 17 18:38:00 2018 +0530
+commit 31ba7e056e8da7b965f45cdb9952bcbf64f93e6b
+Author: Shivesh Abhishek <shankeyshivesh@gmail.com>
+Date:   Wed Dec 27 12:16:23 2017 +0530
 
-    Modified Readme
+    Modifying index file
 
-diff --git a/README.md b/README.md
-index 6cb8978..ada90cc 100644
---- a/README.md
-+++ b/README.md
-@@ -4,4 +4,5 @@
- Chats are stored in JSON file
- This chat has login system, currently anyone can sign using Github account. We are also adding Google and Facebook OAuth.
- 
-+3 Contributors
- 
+diff --git a/index.html b/index.html
+index dfe48e3..6699102 100644
+--- a/index.html
++++ b/index.html
+@@ -3,6 +3,6 @@
+     <title>Hello World</title>
+   </head>
+   <body>
+-    Hi there
++    Hi there, This is Shivesh Abhishek , presently a beginner in GitHub. Trying to explore more and more about it.
+   </body>
+ </html>
