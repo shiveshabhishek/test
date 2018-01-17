@@ -1,5 +1,16 @@
-commit 70b05a1830db7fd17ca746b82bb9d2df623f1f25
+commit c938195e06e6d4806d8c56a1bd782a3d250ee696
 Author: Harshvardhan Karn <harshvkarn54@gmail.com>
-Date:   Mon Jan 15 16:46:13 2018 +0550
+Date:   Wed Jan 17 18:38:00 2018 +0530
 
-    test
+    Modified Readme
+
+diff --git a/README.md b/README.md
+index 6cb8978..ada90cc 100644
+--- a/README.md
++++ b/README.md
+@@ -4,4 +4,5 @@
+ Chats are stored in JSON file
+ This chat has login system, currently anyone can sign using Github account. We are also adding Google and Facebook OAuth.
+ 
++3 Contributors
+ 
