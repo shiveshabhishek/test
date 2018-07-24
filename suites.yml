@@ -1,6 +1,6 @@
 TestRailProjectID: 1
 Platform:
 - GCP:
-    Description: A short description
+    Description: Testing for GCP cluster and Pre-requisites
     Test Suite:
      - 22:
