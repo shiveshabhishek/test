@@ -1,6 +1,10 @@
 TestRailProjectID: 1
 Platform:
+- AWS:
+    Description: A short description for AWS
+    Test Suite:
+     - 21:
 - GCP:
-    Description: Testing for GCP cluster and Pre-requisites
+    Description: A short description for GCP 
     Test Suite:
      - 22:
