@@ -22,7 +22,7 @@ spec:
       containers:
       - command:
         - /bin/elasticsearch_exporter
-        - -es.uri=http://elasticsearch-logging-data.ingress-nginx.svc.cluster.local:9200 #<ELASTICSEARCH_URL> 
+        - -es.uri=<ELASTICSEARCH_URL> 
         - -es.all=true
         image: justwatch/elasticsearch_exporter:1.0.2
         imagePullPolicy: IfNotPresent
