@@ -1,0 +1,46 @@
+apiVersion: apps/v1beta1
+kind: Deployment
+metadata:
+  name: mysql-exporter
+  labels:
+    app: mysql-exporter
+    pvc: percona-cstor-claim
+spec:
+  replicas: 1
+  selector: 
+    matchLabels:
+      app: mysql-exporter
+  template: 
+    metadata:
+      labels: 
+        app: mysql-exporter
+        pvc: percona-cstor-claim
+    spec:
+      containers:
+        - resources:
+            limits:
+              cpu: 0.5
+          name: mysql-exporter
+          image: prom/mysqld-exporter
+          env:
+            - name: DATA_SOURCE_NAME
+              value: "read-admin:readonly@(mysql.ingress-nginx.svc.cluster.local:3306)/"
+          ports:
+            - containerPort: 9104
+              name: percona
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: mysql-exporter-service
+  labels:
+    app: mysql-exporter-service
+spec:
+  ports:
+    - name: exporter
+      port: 9104
+      protocol: TCP
+      targetPort: 9104
+  selector:
+      app: mysql-exporter
+
