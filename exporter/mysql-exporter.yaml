@@ -24,7 +24,7 @@ spec:
           image: prom/mysqld-exporter
           env:
             - name: DATA_SOURCE_NAME
-              value: "<MYSQL_URL>" 
+              value: "<MYSQL_URL>" #"READ_ONLY_USERNAME:READ_ONLY_PASSWORD@(MYSQL_DEPLOY_NAME.NAMESPACE.svc.cluster.local:3306)/"
           ports:
             - containerPort: 9104
               name: percona
