@@ -1,0 +1,8 @@
+1. Create a read-only user in mysql:
+CREATE USER 'read-only' IDENTIFIED BY 'password';
+
+2. Grant permission to the user:
+GRANT SELECT ON *.* TO 'read-only';
+
+or if you want to grant only single database:
+GRANT SELECT ON DATABASE.* TO 'read-only';
