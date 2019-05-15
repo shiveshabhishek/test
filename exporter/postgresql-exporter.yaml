@@ -1,29 +1,29 @@
 apiVersion: apps/v1beta1
 kind: Deployment
 metadata:
-  name: postgres-exporter
+  name: postgresql-exporter
   labels:
-    app: postgres-exporter
+    app: postgresql-exporter
 spec:
   replicas: 1
   selector: 
     matchLabels:
-      app: postgres-exporter
+      app: postgresql-exporter
   template: 
     metadata:
       labels: 
-        app: postgres-exporter
+        app: postgresql-exporter
     spec:
       containers:
         - resources:
             limits:
               cpu: 0.5
-          name: postgres-exporter
+          name: postgresql-exporter
           image: wrouesnel/postgres_exporter
           env:
             - name: DATA_SOURCE_NAME
-              value: <POSTGRES_URL> #postgresql://USER:PASSWORD@postgres.NAMESPACE.svc.cluster.local:5432/DATABASE_NAME?sslmode=disable
+              value: <POSTGRESQL_URL> #postgresql://USER:PASSWORD@POSTGRESQL.NAMESPACE.svc.cluster.local:5432/DATABASE_NAME?sslmode=disable
           ports:
             - containerPort: 9187
-              name: postgres
+              name: postgresql
 
