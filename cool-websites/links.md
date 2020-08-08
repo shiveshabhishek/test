@@ -2,3 +2,12 @@
 
 - NAT (NETWORK ADDRESS TRANSLATION)
 https://www.youtube.com/watch?v=QBqPzHEDzvo
+
+- K8s Flannel networking
+https://blog.laputa.io/kubernetes-flannel-networking-6a1cb1f8ec7c
+
+- Understanding k8s networking: Pods
+https://medium.com/google-cloud/understanding-kubernetes-networking-pods-7117dd28727
+
+- Understanding IP Addresses, Subnets, and CIDR Notation for Networking
+https://www.digitalocean.com/community/tutorials/understanding-ip-addresses-subnets-and-cidr-notation-for-networking#understanding-ip-addresses
