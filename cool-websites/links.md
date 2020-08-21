@@ -11,3 +11,6 @@ https://medium.com/google-cloud/understanding-kubernetes-networking-pods-7117dd2
 
 - Understanding IP Addresses, Subnets, and CIDR Notation for Networking
 https://www.digitalocean.com/community/tutorials/understanding-ip-addresses-subnets-and-cidr-notation-for-networking#understanding-ip-addresses
+
+- OpenVPN on Ubuntu 18.04
+https://medium.com/@thucnc/openvpn-on-ubuntu-18-04-3295cabf114c
