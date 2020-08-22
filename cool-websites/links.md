@@ -14,3 +14,6 @@ https://www.digitalocean.com/community/tutorials/understanding-ip-addresses-subn
 
 - OpenVPN on Ubuntu 18.04
 https://medium.com/@thucnc/openvpn-on-ubuntu-18-04-3295cabf114c
+
+- NAS and/vs SAN
+https://www.youtube.com/watch?v=csdJFazj3h0
