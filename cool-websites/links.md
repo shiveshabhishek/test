@@ -17,3 +17,9 @@ https://medium.com/@thucnc/openvpn-on-ubuntu-18-04-3295cabf114c
 
 - NAS and/vs SAN
 https://www.youtube.com/watch?v=csdJFazj3h0
+
+- Add slave machine to Jenkins:
+https://yallalabs.com/devops/how-to-add-linux-slave-node-agent-node-jenkins/
+
+- Create users in Jenkins  (follow the next videos to control their authorization)
+https://www.youtube.com/watch?v=-XmPfQJyzqA
