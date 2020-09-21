@@ -23,3 +23,6 @@ https://yallalabs.com/devops/how-to-add-linux-slave-node-agent-node-jenkins/
 
 - Create users in Jenkins  (follow the next videos to control their authorization)
 https://www.youtube.com/watch?v=-XmPfQJyzqA
+
+- Public/Private keys, KeyRing
+http://www.imaeses.nl/KeyRing/What_is_PGP.html
