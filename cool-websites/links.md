@@ -26,3 +26,6 @@ https://www.youtube.com/watch?v=-XmPfQJyzqA
 
 - Public/Private keys, KeyRing
 http://www.imaeses.nl/KeyRing/What_is_PGP.html
+
+- HTTPS, TLS and Certificates:
+https://www.youtube.com/playlist?list=PLShDm2AZYnK3cWZpOjV7nOpL7plH2Ztz0
