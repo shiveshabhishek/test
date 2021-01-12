@@ -29,3 +29,6 @@ http://www.imaeses.nl/KeyRing/What_is_PGP.html
 
 - HTTPS, TLS and Certificates:
 https://www.youtube.com/playlist?list=PLShDm2AZYnK3cWZpOjV7nOpL7plH2Ztz0
+
+- Practical NATS free ebook
+https://oiipdf.com/practical-nats
